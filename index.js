@@ -8,7 +8,7 @@ import { listBlocks } from './lib/registry.js';
 const program = new Command();
 
 program
-  .name('your-wp-blocks')
+  .name('shareable-wp-blocks-cli')
   .description('CLI to add WordPress blocks to your project')
   .version('1.0.0');
 
@@ -21,7 +21,7 @@ program
     try {
       if (!blocks || blocks.length === 0) {
         console.log(chalk.yellow('Please specify which blocks to add'));
-        console.log(chalk.gray('Example: npx your-wp-blocks add accordion card'));
+        console.log(chalk.gray('Example: npx shareable-wp-blocks-cli add accordion card'));
         process.exit(1);
       }
 

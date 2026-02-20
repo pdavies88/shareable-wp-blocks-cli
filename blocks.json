@@ -3,22 +3,22 @@
     {
       "name": "accordion",
       "description": "Expandable accordion component",
-      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+      "files": ["block.json", "edit.tsx", "index.ts", "style.css", "editor.css", "markup.php"]
     },
     {
       "name": "card",
       "description": "Card component with image and content",
-      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+      "files": ["block.json", "edit.tsx", "index.tsx", "style.css", "editor.css", "markup.php"]
     },
     {
-      "name": "hero",
+      "name": "hero-basic",
       "description": "Hero section with background image",
-      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+      "files": ["block.json", "edit.tsx", "index.tsx", "style.css", "editor.css", "markup.php"]
     }
   ],
   "repository": {
-    "owner": "your-github-username",
-    "repo": "your-blocks-repo",
+    "owner": "pdavies88",
+    "repo": "shareable-blocks",
     "branch": "main",
     "path": "blocks"
   }
