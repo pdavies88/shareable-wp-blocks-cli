@@ -1,0 +1,25 @@
+{
+  "blocks": [
+    {
+      "name": "accordion",
+      "description": "Expandable accordion component",
+      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+    },
+    {
+      "name": "card",
+      "description": "Card component with image and content",
+      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+    },
+    {
+      "name": "hero",
+      "description": "Hero section with background image",
+      "files": ["block.json", "index.js", "style.scss", "editor.scss", "render.php"]
+    }
+  ],
+  "repository": {
+    "owner": "your-github-username",
+    "repo": "your-blocks-repo",
+    "branch": "main",
+    "path": "blocks"
+  }
+}
